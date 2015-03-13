@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SubViewController.h
 //  APPFrame
 //
 //  Created by Creolophus on 3/13/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SubViewController : UIViewController
 
 @end
-

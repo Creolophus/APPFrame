@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		360080EC1AB2B6BA0081FBB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 360080EB1AB2B6BA0081FBB0 /* main.m */; };
 		360080EF1AB2B6BA0081FBB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 360080EE1AB2B6BA0081FBB0 /* AppDelegate.m */; };
-		360080F21AB2B6BA0081FBB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 360080F11AB2B6BA0081FBB0 /* ViewController.m */; };
 		360080F51AB2B6BA0081FBB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 360080F31AB2B6BA0081FBB0 /* Main.storyboard */; };
 		360080F71AB2B6BA0081FBB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 360080F61AB2B6BA0081FBB0 /* Images.xcassets */; };
 		360080FA1AB2B6BA0081FBB0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 360080F81AB2B6BA0081FBB0 /* LaunchScreen.xib */; };
 		360081061AB2B6BA0081FBB0 /* APPFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 360081051AB2B6BA0081FBB0 /* APPFrameTests.m */; };
+		360081121AB2BE630081FBB0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 360081101AB2BE630081FBB0 /* MainViewController.m */; };
+		360081131AB2BE630081FBB0 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 360081111AB2BE630081FBB0 /* MainViewController.xib */; };
+		360081171AB2D2CD0081FBB0 /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 360081151AB2D2CD0081FBB0 /* SubViewController.m */; };
+		360081181AB2D2CD0081FBB0 /* SubViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 360081161AB2D2CD0081FBB0 /* SubViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,18 @@
 		360080EB1AB2B6BA0081FBB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		360080ED1AB2B6BA0081FBB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		360080EE1AB2B6BA0081FBB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		360080F01AB2B6BA0081FBB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		360080F11AB2B6BA0081FBB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		360080F41AB2B6BA0081FBB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		360080F61AB2B6BA0081FBB0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		360080F91AB2B6BA0081FBB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		360080FF1AB2B6BA0081FBB0 /* APPFrameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APPFrameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		360081041AB2B6BA0081FBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		360081051AB2B6BA0081FBB0 /* APPFrameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPFrameTests.m; sourceTree = "<group>"; };
+		3600810F1AB2BE630081FBB0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		360081101AB2BE630081FBB0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		360081111AB2BE630081FBB0 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		360081141AB2D2CD0081FBB0 /* SubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
+		360081151AB2D2CD0081FBB0 /* SubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
+		360081161AB2D2CD0081FBB0 /* SubViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +90,12 @@
 			children = (
 				360080ED1AB2B6BA0081FBB0 /* AppDelegate.h */,
 				360080EE1AB2B6BA0081FBB0 /* AppDelegate.m */,
-				360080F01AB2B6BA0081FBB0 /* ViewController.h */,
-				360080F11AB2B6BA0081FBB0 /* ViewController.m */,
+				3600810F1AB2BE630081FBB0 /* MainViewController.h */,
+				360081101AB2BE630081FBB0 /* MainViewController.m */,
+				360081111AB2BE630081FBB0 /* MainViewController.xib */,
+				360081141AB2D2CD0081FBB0 /* SubViewController.h */,
+				360081151AB2D2CD0081FBB0 /* SubViewController.m */,
+				360081161AB2D2CD0081FBB0 /* SubViewController.xib */,
 				360080F31AB2B6BA0081FBB0 /* Main.storyboard */,
 				360080F61AB2B6BA0081FBB0 /* Images.xcassets */,
 				360080F81AB2B6BA0081FBB0 /* LaunchScreen.xib */,
@@ -202,6 +213,8 @@
 				360080F51AB2B6BA0081FBB0 /* Main.storyboard in Resources */,
 				360080FA1AB2B6BA0081FBB0 /* LaunchScreen.xib in Resources */,
 				360080F71AB2B6BA0081FBB0 /* Images.xcassets in Resources */,
+				360081131AB2BE630081FBB0 /* MainViewController.xib in Resources */,
+				360081181AB2D2CD0081FBB0 /* SubViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +232,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				360080F21AB2B6BA0081FBB0 /* ViewController.m in Sources */,
 				360080EF1AB2B6BA0081FBB0 /* AppDelegate.m in Sources */,
+				360081121AB2BE630081FBB0 /* MainViewController.m in Sources */,
 				360080EC1AB2B6BA0081FBB0 /* main.m in Sources */,
+				360081171AB2D2CD0081FBB0 /* SubViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
